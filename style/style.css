@@ -56,8 +56,22 @@ ul li a {
     text-decoration: none;
 }
 
-/* banner style  */
+/* header style */
+.header{
+    background: url("../images/developer.png") no-repeat top left,url("/images/header_bg.png") no-repeat  bottom right;
+}
 
+/* banner style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px 0px 200px;
+}
+.banner-content{
+    max-width: 585px;
+
+}
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
@@ -68,4 +82,8 @@ ul li a {
 }
 .banner-description{
     font-size: 18px;
+}
+.banner-image{
+    width: 584px;
+    display: block;
 }
